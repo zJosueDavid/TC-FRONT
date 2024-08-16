@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #232F3E;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active {
+    background-color: #222;
+    color: white;
+}
+.logo {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.actions {
+    margin-bottom: 20px;
+}
+.actions input[type="text"] {
+    width: calc(100% - 150px);
+    padding: 12px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    float: left;
+}
+.actions button {
+    width: 150px;
+    padding: 12px;
+    float: right;
+    margin-left: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+table th {
+    background-color: #232F3E;
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #ddd;
+}
+.btn-edit, .btn-delete {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+}
+.btn-edit {
+    background-color: #007bff;
+}
+.btn-delete {
+    background-color: #dc3545;
+}
+.btn-add {
+    background-color: #28a745;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
